@@ -20,12 +20,12 @@ $MESS["SALE_HPS_NALOG_TYPE_4"] = "Unified Agricultural Tax";
 $MESS["SALE_HPS_NALOG_TYPE_5"] = "Patent system of taxation";
 $MESS["VBCH_CLPAY_SPCP_DDESCR"] = "<a href=\"http://www.http://cloudpayments.ru/\"> CloudPayments </a>. <br> Receiving payments online using a bank card through the system CloudPayments <Br/>
 Go to the back-office CloudPayments  and change the following paths: <br/>
-Settings Notifications notification: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=check<br/>
-Pay notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=pay<br/>
-Fail notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=fail<br/>
-Cancel notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=cancel<br/>
-Confirm notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=confirm<br/>
-Refund notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=refund<br/><br/>";
+Settings Notifications notification: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=check<br/>
+Pay notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=pay<br/>
+Fail notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=fail<br/>
+Cancel notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=cancel<br/>
+Confirm notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=confirm<br/>
+Refund notification settings: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=refund<br/><br/>";
 
 $MESS["SALE_HPS_CLOUDPAYMENT_TYPE_SYSTEM"] = "Payment scheme type";
 $MESS["SALE_HPS_TYPE_SCHEME_0"] = "One-Step Payment";

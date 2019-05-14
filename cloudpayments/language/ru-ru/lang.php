@@ -22,12 +22,12 @@ $MESS["SALE_HPS_NALOG_TYPE_4"]="Единый сельскохозяйствен�
 $MESS["SALE_HPS_NALOG_TYPE_5"]="Патентная система налогообложения";
 $MESS["VBCH_CLPAY_SPCP_DDESCR"] = "<a href=\"http://www.http://cloudpayments.ru/\">CloudPayments</a>.<br>Приём платежей онлайн с помощью банковской карты через систему CloudPayments <Br/>
 Зайти в личный кабинет CloudPayments и исправить пути: <br/>
-&nbsp;&nbsp;	Настройки Сheck уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=check<br/>
-&nbsp;&nbsp;	Настройки Pay уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=pay<br/>
-&nbsp;&nbsp;	Настройки Fail уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=fail<br/>
-&nbsp;&nbsp;	Настройки Cancel уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=cancel<br/>
-&nbsp;&nbsp;	Настройки Confirm уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=confirm<br/>
-&nbsp;&nbsp;	Настройки Refund уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&notif_payment=cloudpayments&tmpl=component&lang=ru&action=refund<br/><br/>";
+&nbsp;&nbsp;	Настройки Сheck уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=check<br/>
+&nbsp;&nbsp;	Настройки Pay уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=pay<br/>
+&nbsp;&nbsp;	Настройки Fail уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=fail<br/>
+&nbsp;&nbsp;	Настройки Cancel уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=cancel<br/>
+&nbsp;&nbsp;	Настройки Confirm уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=confirm<br/>
+&nbsp;&nbsp;	Настройки Refund уведомлений: http://".$_SERVER['HTTP_HOST']."/index.php?option=com_hikashop&ctrl=checkout&task=notify&amp;notif_payment=cloudpayments&tmpl=component&lang=ru&action=refund<br/><br/>";
 
 $MESS["SALE_HPS_CLOUDPAYMENT_TYPE_SYSTEM"] = "Тип схемы проведения платежей";
 $MESS["SALE_HPS_TYPE_SCHEME_0"]="Одностадийная оплата";

@@ -14,6 +14,7 @@
 ### Возможности:
 - Одностадийная схема оплаты;
 - Двухстадийная схема оплаты;
+- Выбор дизайна виджета;
 - Поддержка онлайн-касс (ФЗ-54);
 - Отправка чеков по email;
 - Отправка чеков по SMS;
@@ -54,12 +55,12 @@
 ![0](pics/8.png)
 Список нужных вебхуков:
 
-Настройки Сheck уведомлений: http://ваш_домен/bitrix/tools/sale_ps_result.php?action=check  
-Настройки Pay уведомлений: http://ваш_домен/bitrix/tools/sale_ps_result.php?action=pay  
-Настройки Fail уведомлений: http://ваш_домен/bitrix/tools/sale_ps_result.php?action=fail  
-Настройки Void уведомлений: http://ваш_домен/bitrix/tools/sale_ps_result.php?action=void  
-Настройки Confirm уведомлений: http:/ваш_домен/bitrix/tools/sale_ps_result.php?action=confirm  
-Настройки Refund уведомлений: http://ваш_домен/bitrix/tools/sale_ps_result.php?action=refund  
+Настройки Сheck уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=check  
+Настройки Pay уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=pay  
+Настройки Fail уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=fail  
+Настройки Cancel уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=cancel  
+Настройки Confirm уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=confirm  
+Настройки Refund уведомлений: http://ваш_домен/index.php?option=com_hikashop&ctrl=checkout&task=notify&if_payment=cloudpayments&tmpl=component&lang=ru&action=refund  
  где **ваш_домен** нужно заменить на домен вашего сайта.
 
 
